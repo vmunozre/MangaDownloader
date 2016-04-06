@@ -4,8 +4,7 @@
 package mangadownloader;
 
 import java.util.ArrayList;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
+
 
 /**
  *
@@ -40,7 +39,7 @@ public class CapituloHeavenManga {
         }
         
         this.serie = this.serie.substring(1);
-        //this.serie = partes2[0] + " " + partes[1];
+       
     }
 
     public void mostrarCapitulo() {

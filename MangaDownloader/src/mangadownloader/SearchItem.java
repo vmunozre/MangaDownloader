@@ -1,19 +1,18 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * El autor de esta aplicación no se hace responsable del mal uso de la misma. O de su uso directamente. :)
  */
+
 package mangadownloader;
 
 /**
  *
- * @author Reiner
+ * @author Victor_Reiner
  */
 public class SearchItem {
     
-    private String enlace;
-    private String nombreSerie;
-    private String imagen;
+    private final String enlace;
+    private final String nombreSerie;
+    private final String imagen;
     
     public SearchItem(String enlace, String nombre, String imagen){
         this.enlace = enlace;

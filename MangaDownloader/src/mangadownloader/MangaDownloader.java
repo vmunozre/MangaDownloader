@@ -28,7 +28,6 @@ public class MangaDownloader {
         }*/
         //System.out.println("Procediendo a decargar imagenes:");
         //Ejemplo: "http://es.ninemanga.com/manga/Nobunaga%20no%20Chef.html"
-        
         procesador.process(enlace);
        
     }
